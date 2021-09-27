@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Space Exploration</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script>
+
+function mySun() {
+  var x = document.getElementById("mySUN");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myMercury() {
+  var x = document.getElementById("myMERCURY");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myVenus() {
+  var x = document.getElementById("myVENUS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myEarth() {
+  var x = document.getElementById("myEARTH");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myMars() {
+  var x = document.getElementById("myMARS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myJupiter() {
+  var x = document.getElementById("myJUPITER");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function mySaturn() {
+  var x = document.getElementById("mySATURN");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function myUranus() {
+  var x = document.getElementById("myURANUS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myNeptune() {
+  var x = document.getElementById("myNEPTUNE");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  body {
+
+   background-color: black;
+
+  }
+
+h1 {
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+  font-family: 'Patua One', cursive;
+}
+
+h2 {
+  font-size: 7vh;
+  text-align: center;
+  color: white;
+  font-family: 'Patua One', cursive;
+}
+
+.card-text {
+  font-size: 2.6vh;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+img:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+footer {
+  background-color: #9388A2;
+  border-radius: 10px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div class="heading">
+
+<h1>Space Exploration</h1>
+
+</div>
+
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="sun.jpg" class="img-fluid rounded-start" alt="A cartoon image of a smiling yellow and orange sun against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color:#FBEE0F; text-shadow: 2px 2px 5px #FBB80F;">Sun</h2>
+        <p class="card-text">The Sun is the centre of our solar system. All the planets in our solar system revolve around the Sun.</p>
+        <p class="card-text">Without the heat from the Sun, people could not live on earth. It would be too cold.</p>
+        <p class="card-text">The Sun is actually a star. Scientists call it a yellow dwarf star. Stars are hot balls of gases, which means that they are not solid.
+                             If we tried to stand on them, we'd fall right through!</p>
+        <p class="card-text">The Sun does not have any moons, but it is orbited by the planets in our solar system, asteroids, comets and icy bodies.</p>
+
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-warning" type="submit" onclick="mySun()">Click to learn more about the Sun!</button>
+        <div id="mySUN">
+        <p style="text-align: center;">The Sun is very, very old! It is about 4.5 billion years old!</p>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="mercury.jpg" class="img-fluid rounded-start" alt="A cartoon image of a smiling grey planet Mercury against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color:#B9B7BD; text-shadow: 2px 2px 5px #868B8E;">Mercury</h2>
+        <p class="card-text">Mercury is the smallest planet in our solar system. It is also the closest to the sun.</p>
+        <p class="card-text">The atmopshere on Mercury is not very kind to living things. The atmosphere is very thin and is made up of the following gases: oxygen, sodium, hydrogen, helium, and potassium.
+                             This means it would make breathing next to impossible.</p>
+        <p class="card-text">Another thing that makes life on Mercury impossible is the extreme solar radiation. Mercury is very close to the sun and so is exposed to the extreme
+                            heat and radiation of the sun. Not even sunscreen would help with this!</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-secondary" type="submit" onclick="myMercury()">Click to learn more about Mercury!</button>
+        <div id="myMERCURY">
+        <p style="text-align: center;">Mercury is known as a terrestrial planet. It is called this because of its rocky surface.</p>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="venus.jpg" class="img-fluid rounded-start" alt="A cartoon image of a smiling orange planet Venus against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color:#81B622; text-shadow: 2px 2px 5px #3D550C;">Venus</h2>
+        <p class="card-text">Venus is the hottest planet in our solar system. Its atmosphere is very thick and this helps to trap heat. The atmosphere is similar to a greenhouse.</p>
+        <p class="card-text">Venus has a very rocky surface. Scientists think that some of the volcanoes on Venus may still be active!</p>
+        <p class="card-text">Venus can be seen without a telescope. Because of this, people have known about Venus for a long time - even before telescopes and satelites were invented.</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-success" type="submit" onclick="myVenus()">Click to learn more about Venus!</button>
+        <div id="myVENUS">
+        <p style="text-align: center;">The atmopshere on Venus is very toxic. The atmosphere is mainly made up of carbon dioxide.</p>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="earth.jpg" class="img-fluid rounded-start" alt="A cartoon image of a smiling Earth against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color:#68BBE3; text-shadow: 2px 2px 5px #055C9D;">Earth</h2>
+        <p class="card-text">Earth is our home in the solar system! As far as we know, it is the only planet that humans can live on.</p>
+        <p class="card-text">The Earth has one moon and one sun. It takes the earth 365 days to move around the sun. That is why one year is 365 days.</p>
+        <p class="card-text">Many years ago, people thought that the sun revolved around the Earth. Nicolaus Copernicus was one of the first people
+                             to suggest that the Sun did not revolve around the Earth.</p>
+        <p class="card-text">The Earth is very old. Scientists have estimated that the Earth is around 4.54 billion years old.</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="submit" onclick="myEarth()">Click to learn more about Earth!</button>
+        <div id="myEARTH">
+        <p style="text-align: center;">Earth was once very, very hot. The surface was once molten! Eventually, the Earth cooled and an atmosphere formed.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="mars.jpg" class="img-fluid rounded-start" alt="A cartoon image of a scowling red planet Mars against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color: #FF2511; text-shadow: 2px 2px 5px #BA0F30;">Mars</h2>
+        <p class="card-text">Mars is known as the Red Planet becuase of its red soil. Minerals in the soil go through a process called oxidization.
+                             This makes the soil appear very red in colour.</p>
+        <p class="card-text">Unlike Venus and Mercury, Mars has a very varied landscape. There is rocky terrain, but also polar ice caps and extinct volcanoes.</p>
+        <p class="card-text">There have been many different exploration missions to Mars. The Perseverence Rover visited Mars in 2021, as did the Zhurong Mars rover. We are able
+                             to take photos of the landscape, as well as study what life may have existed on Mars in the past.</p>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-danger" type="submit" onclick="myMars()">Click to learn more about Mars!</button>
+          <div id="myMARS">
+          <p style="text-align: center;">In Roman mythology, the god of war is called Mars.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="jupiter.jpg" class="img-fluid rounded-start" alt="A cartoon image of an orange planet Jupiter poking out its tongue against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color: #A4E5E0; text-shadow: 2px 2px 5px #37BEB0;">Jupiter</h2>
+        <p class="card-text">Jupiter is very, very big. It is the largest planet in our solar system.</p>
+        <p class="card-text">Jupiter is called a gas giant. It does not have a hard surface like Earth. It may have a solid core surrounded by gas.</p>
+        <p class="card-text">Jupiter has over 75 moons and is also surrounded by rings!</p>
+        <p class="card-text">If you look closely at pictures of Jupiter, you may see a large red spot. This is called the Great Red Spot. The Great Red Spot is a large storm.
+                             This storm has lasted for over one hundred years!</p>
+
+       <div class="d-grid gap-2 col-6 mx-auto">
+       <button class="btn btn-primary" type="submit" onclick="myJupiter()">Click to learn more about Jupiter!</button>
+       <div id="myJUPITER">
+       <p style="text-align: center;">The Juno orbiter is a NASA spacecraft that is currently exploring Jupiter.</p>
+       </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="saturn.jpg" class="img-fluid rounded-start" alt="A cartoon image of a smiling yellow and green planet Saturn against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color: #75E6DA; text-shadow: 2px 2px 5px #189AB4;">Saturn</h2>
+        <p class="card-text">Saturn is the second-largest planet in our solar system.</p>
+        <p class="card-text">Like Jupiter, it is known as a gas giant. It is made up on mainly hydrogen and helium. It is also surrounded by rings.</p>
+        <p class="card-text">Saturn's rings are very complex. There are seven rings in total. These rings are made up of rock and ice.</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-info" type="submit" onclick="mySaturn()">Click to learn more about Saturn!</button>
+        <div id="mySATURN">
+        <p style="text-align: center;">Between 2004 and 2017, the oribter Cassini orbitered Saturn 294 times.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="uranus.jpg" class="img-fluid rounded-start" alt="A cartoon image of a laughing blue planet Uranus against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color: white; text-shadow: 2px 2px 5px #868B8E;">Uranus</h2>
+        <p class="card-text">Uranus is known as an ice giant. It has a small rocky core surrounded by water, methane and ammonia.</p>
+        <p class="card-text">Uranus has 27 moons! Not as many as Jupiter, but still more than Earth.</p>
+        <p class="card-text">13 rings surround Uranus. The inner rings are dark and the outer rings are very bright.</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-light" type="submit" onclick="myUranus()">Click to learn more about Uranus!</button>
+        <div id="myURANUS">
+        <p style="text-align: center;">The methane gas that surrounds Uranus's rocky core is what makes the planet appear blue.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card text-white bg-transparent mb-3" style="max-width: 1400px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="neptune.jpg" class="img-fluid rounded-start" alt="A cartoon image of a grinning dark blue planet Neptune against a blue starry background">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title" style="color: #747474; text-shadow: 2px 2px 5px #444444;">Neptune</h2>
+        <p class="card-text">Neptune is known as an ice giant. Like Uranus, it has a rocky core and is surrounded by water, methane and ammonia.</p>
+        <p class="card-text">14 moons orbit Neptune and five main rings surround it. It also has ring arcs that surround it.</p>
+        <p class="card-text">Neptune is very, very windy. The planet is swept by supersonic winds.</p>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="submit" onclick="myNeptune()">Click to learn more about Neptune!</button>
+        <div id="myNEPTUNE">
+        <p style="text-align: center;">In Roman mythology, Neptune is the god of the ocean.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+</div>
+
+</body>
+
+<footer>
+  <p style="padding-left: 2%; color: black;">More about this project:</p>
+    <p style="padding-left: 2%; color: black;">I wanted to create a site that appealed to children, but also to adults. Too often, sites designed for children can feel too busy and too cluttered.
+    I wanted to focus instead on the content, adding smaller elements such as the buttons and moving images to make the site feel more dyanmic.</p>
+  <p style="padding-left: 2%; color: black;">Creating content for younger audiences can often be just as complex if not more complex than creating content for adults. The material needs to be comprehendable
+    and engaging, without being condescending or assuming prior knowledge.</p>
+  <p style="padding-left: 2%; color: black;">This sample was created for a primary-school audience, with an age range of between six and eight. The content is to be used as an introduction to learning about space.</p>
+  <p style="padding-left: 2%; color: black;">It could possibly be used as supplementary reading for students who are learning about this topic in class.</p>
+  <p style="padding-left: 2%; color: black;">The simple structure of the site lends itself to being used by students with unstable or poor internet connections, as well as students using mobile phones or tablets.
+     The lack of videos means that students can use it without worrying about using large amounts of data. It is important to me that learning material is accessible to all students,
+    not just students with good internet connections and robust data plans.</p>
+</footer>
+
+</html>
