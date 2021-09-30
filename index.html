@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Portfolio - Kerri-Ann Bevis</title>
+<title>Home - Portfolio - Kerri-Ann Bevis</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
@@ -14,24 +14,25 @@ body {
   background-image: url("images/sheep.jpg");
 }
 
-h2 {
+blockquote {
   font-family: 'Merriweather', serif;
   color: black;
   text-align: center;
   font-size: 7vh;
 }
 
-p {
+p, #link {
   font-family: 'Merriweather', serif;
   color: black;
   text-align: center;
   font-size: 6vh;
 }
 
-.content {
+#quote, #introduction, #action {
   margin: 2%;
+  padding: 2%;
   border-radius: 20px;
-  background-color: rgba(58, 83, 155, 0.8);
+  background-color: rgba(58, 83, 155, 1);
 }
 
 ul {
@@ -73,7 +74,7 @@ nav {
 
 <nav>
   <ul>
-    <li><a href="#">Home</a></li>
+    <li><a href="">Home</a></li>
     <li><a href="samples.html">Samples</a></li>
     <li><a href="about.html">About</a></li>
   </ul>
@@ -82,15 +83,33 @@ nav {
 <br>
 <br>
 
+<main>
 
-<div class="content">
-<h2>Unlike this background, not everyone is exactly the same.</h2>
+<section id="quote">
+
+<blockquote>Creator: one that creates usually by bringing something new or original into being.</blockquote>
+<p> - Mirriam-Webster</p>
+
+</section>
+
 <br>
-<p>I am an e-learning developer. I aim to create unique learning experiences that empower and engage learners.</p>
-</div>
 
+<section id="introduction">
 
+<p>I like to create things, especially digital things. My favourite things to create are digital experiences
+   that leave the user feeling excited, captivated and motivated.</p>
 
+</section>
+
+<br>
+
+<section id="action">
+
+<p>Want to see what I have created recently? Look through my <a href="samples.html" id="link"><u>Samples</u></a> page.</p>
+
+</section>
+
+</main>
 
 </body>
 </html>

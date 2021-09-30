@@ -39,20 +39,6 @@ body {
   background-color: #98D7C2;
 }
 
-.divide {
-  background-color: white;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  padding: 1%;
-  box-shadow: 5px 10px;
-}
-
-.intro {
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  padding: 1%;
-}
-
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -75,28 +61,22 @@ h4 {
 
 }
 
-.left {
-  float: left;
-  margin-left: 0.5%;
-  margin-bottom: 0.5%;
-}
-
-.right {
-  float: right;
-  margin-right: 0.5%;
-    margin-bottom: 0.5%;
-}
-
 p, ol {
   font-size: 4vh;
 }
 
 ol {
-  margin-left: 2%;
+  margin-left: 1.5%;
 }
 
-img {
-  border-radius: 25px;
+#intro, #parttwo, #partfour {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5%;
+}
+
+#partone, #partthree {
+  padding: 1.5%;
 }
 
 footer {
@@ -113,31 +93,33 @@ footer {
 
 <div class="container-fluid">
 
+<nav>
   <ul>
-  <li class="list"><a href="#home">Home</a></li>
-  <li class="list"><a href="#modulelist">Module List</a></li>
-  <li class="list"><a href="#assignedmodules">Assigned Modules</a></li>
+  <li class="list"><a href="#">Home</a></li>
+  <li class="list"><a href="#">Module List</a></li>
+  <li class="list"><a href="#">Assigned Modules</a></li>
 </ul>
+</nav>
+
+<section id="heading">
 
 <h1>Workshop Safety</h1>
 
 <h2>Module 2: Personal Protective Equipment (PPE)</h2>
 
-<div class="intro">
+</section>
+
+<section id="intro">
 
 <p>Personal Protective Equipment, or PPE for short, is the equipment that staff and students in the workshop wear to keep themselves safe. PPE is mandatory and must be worn at all times when in the workshop or on the workshop grounds.</p>
 
-</div>
+</section>
 
-<div class="divide">
+</section>
 
-<div class="image" style="float: right; margin-left: 0.5%; margin-top: 4.5%;">
+<main>
 
-<img src="workers.jpg" alt="A photogrpah of workers sitting on site dressed in personal protective equipment" width="350px" height="400px">
-
-<!-- Photo by Sunyu Kim on Unsplash -->
-
-</div>
+<section id="partone">
 
 <h3>Why PPE is worn</h3>
 
@@ -147,17 +129,11 @@ footer {
 
 <p>Accidents can happen in the workshop. PPE is worn to protect people from potential accidents such as chemical spills, fires, ventilation breakdowns and machine malfunctions.</p>
 
-</div>
+</section>
 
 <br>
 
-<div class="divide">
-
-<div class="image" style="float: left; margin-right: 0.5%; margin-top: 5%;">
-
-<img src="sawing.jpg" alt="A worker sawing wood" width="400px" height="300px">
-
-</div>
+<section id="parttwo">
 
 <h3>When to wear PPE</h3>
 
@@ -168,11 +144,11 @@ footer {
 
 <p>Removal of PPE without reason inside the workshop or on the workshop grounds will result in an automatic failure of the module.</p>
 
-</div>
+</section>
 
 <br>
 
-<div class="divide">
+<section id="part three">
 
 <h3>Types of PPE</h3>
 
@@ -181,14 +157,6 @@ footer {
 <p>Helmets/hardhats protect the skull, face and neck from injuries.</p>
 
 <h4>Safety glasses</h4>
-
-<div class="image" style="float: right; margin-left: 0.5%;">
-
-<img src="dummy.jpg" alt="A photograph of a mannequin wearing protective gear" height="700px" width="500px">
-
-<!--Photo by John Schaidler on Unsplash-->
-
-</div>
 
 <p>Safety glasses, or sometimes called safety goggles, protect the eyes and surrounding ocular tissue from injuries, as well as from harsh chemicals and irritants.
   If any welding is done, students are required to wear welding goggles or a face shield to protect them from the infrared radiation.</p>
@@ -211,19 +179,11 @@ Dust masks must be well fitting and must closely adhere to the face.</p>
 <p>High-visibility jackets ensure that everyone is easily seen when in the workshop and on the workshop grounds. This can help prevent accidents. High-visibility clothing can also ensure that if there is an accident
    the injured person can be easily identified by supervising managers and medical professionals.</p>
 
-</div>
+</section>
 
 <br>
 
-<div class="divide" style="margin-bottom: 2%;">
-
-  <div class="image" style="float: right; margin-top: 5%;">
-
-  <img src="ppe.jpg" alt="A photograph of workers wearing PPE" height="400px" width="400px">
-
-  <!-- Photo by rossella porta on Unsplash -->
-
-  </div>
+<section id="partfour">
 
 <h3>Required PPE in the workshop</h3>
 
@@ -240,12 +200,13 @@ Dust masks must be well fitting and must closely adhere to the face.</p>
 
 <p>All PPE must be purchased from only approved vendors.</p>
 
-</div>
-
+</section>
 
 </div>
 
 </body>
+
+<br>
 
 <footer>
 

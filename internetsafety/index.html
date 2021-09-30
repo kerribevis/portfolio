@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 9.5vh;
+  font-size: 10vh;
   text-align: center;
   color: black;
 }
@@ -31,43 +31,67 @@ h2 {
   text-align: center;
 }
 
-.subheading {
-  font-size: 3vh;
-  text-align: center;
-  font-family: 'Fjalla One', sans-serif;
+p {
   color: black;
+  font-size: 5vh;
+  text-align: center;
 }
 
 body {
- background-image: url("phishing.jpg");
- background-color: black;
+ background-image: url("fish.jpg");
+ background-color: white;
  background-repeat: no-repeat;
- background-size: cover;
+ height: 100%;
+ width: 100%;
 }
 
-/* Photo by Damir Spanic on Unsplash */
-
-.heading {
-  margin-top: 3%;
+#mainheading {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  background-color: white;
+  border: solid grey 4px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px red;
 }
 
-a:link, a:visited,  a:hover, a:active
+#subheading {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  background-color: white;
+  border: solid grey 4px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px red;
+}
+
+.container {
+  background-color: white;
+}
+
+a
 {
-    color: #050A30;;
+    color: black;;
     text-decoration: none;
+    font-size: 4vh;
+}
+
+a:hover {
+  color: red;
+  font-size: 5vh;
 }
 
 footer {
   margin-top: 45%;
   padding-left: 4%;
-  background-color: rgba(51, 110, 123, 0.9);
+  background-color: white;
   border-radius: 25px;
+  border: grey solid 2px;
 }
 
-p {
-  color: black;
-  font-size: 3.5vh;
-}
+
 
 </style>
 
@@ -75,33 +99,41 @@ p {
 
 <body>
 
-<div class="container-fluid">
+<main class="container-fluid">
 
-<div class="heading">
+<section id="mainheading">
 
 <h1>Internet Safety: Phishing</h1>
 
-</div>
+</section>
 
-<p class="subheading">Select the appropriate module:</p>
+<section id="subheading">
+
+<p>Select the appropriate module:</p>
+
+</section>
 
 <br>
 
+<section id="mainbody">
+
 <div class="container">
   <div class="row">
-    <div class="col" style="border: solid 3px blue; border-radius: 25px;">
-      <h2 style="padding-top: 5%;"><a href="#" title="Module 1">Module 1: Phishing Explained</a></h2>
+    <div class="col" style="border: solid 3px grey; border-radius: 25px;">
+      <h2 style="padding-top: 5%;"><a href="" title="Module 1">Module 1: Phishing Explained</a></h2>
     </div>
-    <div class="col" style="border: solid 3px blue; border-radius: 25px;">
-    <h2 style="padding-top: 4%;"><a href="#" title="Module 2">Module 2: Common Phishing Tactics</a></h2>
+    <div class="col" style="border: solid 3px grey; border-radius: 25px;">
+    <h2 style="padding-top: 4%;"><a href="" title="Module 2">Module 2: Common Phishing Tactics</a></h2>
     </div>
-    <div class="col" style="border: solid 3px blue; border-radius: 25px;">
-    <h2 style="padding-top: 4%;"><a href="#" title="Module 3">Module 3: Keeping Our Information Safe</a></h2>
+    <div class="col" style="border: solid 3px grey; border-radius: 25px;">
+    <h2 style="padding-top: 4%;"><a href="" title="Module 3">Module 3: Keeping Our Information Safe</a></h2>
     </div>
   </div>
 </div>
 
-</div>
+</section>
+
+</main>
 
 </body>
 
