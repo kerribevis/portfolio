@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Merriweather&display=swap');
+
+body {
+  background-color: white;
+  background-image: url("images/sheep.jpg");
+}
+
+blockquote {
+  font-family: 'Merriweather', serif;
+  color: black;
+  text-align: center;
+  font-size: 7vh;
+}
+
+p, #link {
+  font-family: 'Merriweather', serif;
+  color: black;
+  text-align: center;
+  font-size: 6vh;
+}
+
+#quote, #introduction, #action {
+  margin: 2%;
+  padding: 2%;
+  border-radius: 20px;
+  background-color: rgba(58, 83, 155, 1);
+}
+
+ul {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+
+}
+
+li {
+  list-style-type: none;
+  margin: 0 4vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 3.5vh;
+
+}
+
+a:hover {
+  background-color: #B5E5CF;
+  color: black;
+  font-family: 'Merriweather', serif;
+  font-size: 3.5vh;
+}
+
+nav {
+  width: 100%;
+  background-color: #77dd77;
+}
