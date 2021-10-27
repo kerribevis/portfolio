@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Raleway:wght@100;300&display=swap');
+
+main {
+  border: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  position: absolute;
+  display: block;
+}
+
+#buttonone{
+  position: absolute;
+  top: 250px;
+  left: 60px;
+  width: 18em;
+}
+
+#buttonthree {
+  position: absolute;
+  top: 875px;
+  left: 850px;
+  width: 18em;
+}
+
+#buttontwo {
+  position: absolute;
+  top: 450px;
+  left: 570px;
+    width: 18em;
+}
+
+#buttonfive {
+  position: absolute;
+  top: 805px;
+  left: 1800px;
+  width: 18em;
+}
+
+#buttonsix {
+  position: absolute;
+  top: 1350px;
+  left: 1770px;
+    width: 18em;
+}
+
+#buttonfour {
+  position: absolute;
+  top: 1050px;
+  left: 1200px;
+    width: 18em;
+}
+
+button {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2em;
+  border-radius: 10px;
+  border: black 2px solid;
+  background-color: #CCCCFF;
+  display: block;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  background-color: #9FE2BF;
+  border-radius: 10px;
+  border: black solid 2px;
+  padding: 2%;
+  text-align: justify;
+}
